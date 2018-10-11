@@ -3,6 +3,8 @@
 
 - Make a easy guideline for Python users who want to transfer its own database to the cloud.
 
+To make this report, I am using Jupyter Notebook. To run the application you have to download the right libraries (I will put the names below) and IDE that you are confortable with. In my case, I am using Spyder.
+
 #Tools:
 
 The tools necessary to make the migration are the following:
@@ -15,6 +17,7 @@ Below, there are different websites to make the installation of the tools:
     - Python 3.x: https://www.python.org/downloads/
     - AWS: https://aws.amazon.com/
     - SQL Workbench/J: http://www.sql-workbench.net/manual/install.html
+    
 Python libraries used in this application:
     - psycopg2: make the connection to my local database and my clustered database
     - boto3: make the connection to AWS
