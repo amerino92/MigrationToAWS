@@ -4,6 +4,7 @@
 - Make a easy guideline for Python users who want to transfer its own database to the cloud.
 
 #Tools:
+
 The tools necessary to make the migration are the following:
     - Python 3.x
     - Local Database (In this example, we will use PostgreSQL)
