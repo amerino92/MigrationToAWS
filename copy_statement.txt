@@ -1,0 +1,56 @@
+copy category 
+from 's3://bucket-ds530-1/category' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
+
+copy region 
+from 's3://bucket-ds530-1/region' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
+
+copy vendor 
+from 's3://bucket-ds530-1/vendor' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
+
+copy product 
+from 's3://bucket-ds530-1/product' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
+
+copy store 
+from 's3://bucket-ds530-1/store' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
+
+copy customer 
+from 's3://bucket-ds530-1/customer' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
+
+copy salestransaction 
+from 's3://bucket-ds530-1/salestransaction' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ','
+dateformat 'auto';
+commit;
+
+copy soldvia 
+from 's3://bucket-ds530-1/soldvia' 
+credentials 'aws_iam_role=arn:aws:iam::675582806628:role/myRedshiftRole'
+truncatecolumns
+delimiter ',';
+commit;
