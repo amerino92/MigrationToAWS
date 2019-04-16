@@ -1,2 +1,3 @@
 # MigrationToAWS
-Migration from local database to the cloud (clustered database)
+
+In this project, I made a migration from local database to the cloud (clustered database) located in AWS (Amazon Web Services). This project was made using Python and SQL languages. I created a guideline in Jupyter Notebook and PDF (named Migration to AWS RedShift guideline) for people who wants to transfer its own database to the cloud. This project helped me to join my knowledge in Python, SQL (data warehouse) and AWS.
